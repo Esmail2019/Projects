@@ -1,0 +1,43 @@
+p,
+li {
+  font-size: 20px;
+  line-height: 3;
+  letter-spacing: 1.5px;
+}
+
+h1 {
+  font-size: 75px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: rgb(255, 30, 116);
+  text-shadow: 3px 3px 1px green;
+}
+
+#quote {
+  font-style: italic; /*This makes text italic*/
+}
+
+.para {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: blue;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  width: 700px;
+  border: 5px dashed red;
+  background-color: chocolate;
+}
+
+* {
+  background-color: aqua;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}

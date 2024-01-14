@@ -1,0 +1,38 @@
+
+INTERFACE
+public Iterator<E>{
+    boolean hasNext(); //return true if iteration has more elements
+    E next();                 //returns the next element in the iteration
+    void remove();        //returns then last element returned by iterator
+    }
+    
+    
+  public Iterable<T>{
+	Iterator<T> iterator();//returns an iterator over elemnts of type T
+	}
+	
+	USING FOR EACH FOR ACCESSING
+	
+	for(Object o:coll){
+		System.out.println(o);
+		}
+	
+	Collection INterface 
+	Methods
+	1)Add elements
+	add(o:E):boolean
+	addAll(c"collection<?extends E>):boolean
+	
+	2)remove(o:Object):boolean
+	  clear():void
+	  removeaAll(c;collection<?>):boolean
+	
+	3)contains(o:object):boolean
+	containsAll(c:Collection<?>):boolean
+	
+	isEmpty():boolean
+	size():int
+	
+	toArray():Object[]
+	<T>toArray{T[]a):T[]
+	

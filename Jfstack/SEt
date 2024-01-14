@@ -1,0 +1,24 @@
+Duplicate cannot be stored 
+linked hashset
+
+
+java util package
+unordered set of elemnsts
+
+
+Hashset : uses a hash table for storage that places elements in  specific position and based upon integers called hash code
+
+
+Linked Hashset
+ordered version of Hashset that maintains a doubly linked list across all element
+when iteration order is to be maintained this class is used
+iterable in which order they were inserted
+
+
+TREE SET
+implements set interface
+contains unique elements
+access and interval is faster
+uses BINARY SEARCH TREEE to store elements in sorted order
+stored in ascending order
+STRING OR INTEGER
